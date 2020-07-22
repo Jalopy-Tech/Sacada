@@ -1,17 +1,15 @@
-# Muze Rating Calculator
+# Sacada
 
 ### Overview
 
-Muze Rating Calculator is part of the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a>. It calculates a <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating.md">Muze Rating</a> for an album by entering in the number of 5-star, 4-star, 3-star, 2-star and 1-star tracks.
+Sacada is a GUI front end to SACAD which downloads album art for a given album.
 
 ### Installation
 
-Muze Rating Calculator can be installed as part of the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a>.
+Sacada installation instructions are on the main <a href="https://github.com/Jalopy-Tech/Sacada/blob/master/README.md">README</a> page.
 
 ### License
 
-Copyright &copy; 2020 Robert J. Joynt and Kester Falge.
+Copyright &copy; 2020 Robert J. Joynt.
 
-Artwork by Angie Eyles.
-
-The <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/LICENSE.md">Muze Rating Suite license</a> uses the <a href="https://www.qt.io/">QT</a> GPLv3 <a href="https://doc.qt.io/qt-5/gpl.html">Open Source License</a>
+The <a href="https://github.com/Jalopy-Tech/Sacada/blob/master/LICENSE.md">Sacada license</a> uses the <a href="https://www.qt.io/">QT</a> GPLv3 <a href="https://doc.qt.io/qt-5/gpl.html">Open Source License</a>
