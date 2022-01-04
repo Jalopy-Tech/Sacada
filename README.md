@@ -6,9 +6,9 @@
 
 **SACADA** stands for **SACAD** **A**ssistant.
 
-SACADA application instructions are on the <a href="https://github.com/Jalopy-Tech/Sacada/blob/master/ADB-Wireless-Connect.md">Sacada</a> page.
+SACADA application instructions are on the <a href="https://github.com/Jalopy-Tech/Sacada/blob/master/Sacada.md">Sacada</a> page.
 
-This app relies on the <a href="https://github.com/desbma/sacad">SACAD</a> command line tool being installed. The "sacad" folder containing the "sacad" executable file either needs to be in the search PATH or needs to be a subolder of the Sacada installation folder. Instructions to install both Sacada and the SACAD comand line tool in Linux, Windows and macOS are given below. Instructions to add the sacad folder to the search PATH is included. For more information, read the <a href="https://github.com/desbma/sacad">SACAD</a> instructions.
+This app relies on the <a href="https://github.com/desbma/sacad">SACAD</a> command line tool being installed. The "sacad" folder containing the "sacad" executable file either needs to be in the search PATH or needs to be a subolder of the Sacada installation folder. Instructions to install both Sacada and the SACAD command line tool in Linux, Windows and macOS are given below. Instructions to add the sacad folder to the search PATH is included. For more information, read the <a href="https://github.com/desbma/sacad">SACAD</a> instructions.
 
 ## Installation
 
@@ -89,7 +89,7 @@ To install the <a href="https://github.com/desbma/sacad">SACAD</a> command line 
 
 ### WINE in Linux
 
-<img align="right" src="./images/WINE.png" alt="Linux"  />In Linux, it is recommened to install and run Sacada as a native application (see Linux section above) even if using in conjunction with a WINE application such as foobar2000. However, Sacada can be installed under WINE to run as a WIndows application if necessary.
+<img align="right" src="./images/WINE.png" alt="Linux"  />In Linux, it is recommended to install and run Sacada as a native application (see Linux section above) even if using in conjunction with a WINE application such as foobar2000. However, Sacada can be installed under WINE to run as a Windows application if necessary.
 
 In the latest <a href="https://github.com/Jalopy-Tech/Sacada/releases">release</a>, download the executable file "Sacada-Windows-Installer.exe" and open it with WINE. This installer will ask for the destination folder to be created  and it may default to an unusable folder such as "/Sacada". This needs be changed to a new folder such as "C:\Program Files\Sacada". The app can also be installed to a home folder. In the Linux menu, a shortcut menu item under "Wine" will be created.
 
@@ -101,7 +101,7 @@ To install the <a href="https://github.com/desbma/sacad">SACAD</a> command line 
 
 2. Run the archive executable in WINE to extract the folder "sacad-win64" into an easily accessible location for Windows. e.g. "C:\\" so that the folder is "C:\\sacad-win64".
 
-3. When using WINE, the Windows PATH can be set using the Linux environement variable WINEPATH. Add the following line to your .profile file:
+3. When using WINE, the Windows PATH can be set using the Linux environment variable WINEPATH. Add the following line to your .profile file:
 
     `export WINEPATH="c:\\sacad-win64"`
 
