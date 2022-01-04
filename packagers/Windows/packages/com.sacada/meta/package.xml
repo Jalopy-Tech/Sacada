@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+	<DisplayName>Sacada</DisplayName>
+	<Description>SACAD Assistant</Description>
+	<Version>1.0</Version>
+	<ReleaseDate>2022-01-01</ReleaseDate>
+	<Name>com.sacada</Name>
+	<Script>installscript.qs</Script>
+	<Licenses>
+		<License name="License Agreement" file="license.html" />
+	</Licenses>
+	<ForcedInstallation>true</ForcedInstallation>
+</Package>

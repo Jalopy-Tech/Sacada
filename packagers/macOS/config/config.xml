@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+	<Name>Sacada</Name>
+	<Version>1.0</Version>
+	<Title>Sacada Installer</Title>
+	<Publisher>Jalopy Software</Publisher>
+	<ProductUrl>https://github.com/Jalopy-Tech/Sacada/blob/master/README.md</ProductUrl>	
+	<StartMenuDir>Sacada</StartMenuDir>
+	<TargetDir>@ApplicationsDir@/Sacada</TargetDir>
+	<RunProgram>@TargetDir@/Sacada</RunProgram>
+	<RunProgramDescription>Launch Sacada</RunProgramDescription>
+	<MaintenanceToolName>Sacada Maintenance Tool</MaintenanceToolName>
+	<MaintenanceToolIniFile>Sacada Maintenance Tool</MaintenanceToolIniFile>
+	<InstallerApplicationIcon>sacada</InstallerApplicationIcon>
+	<WizardDefaultWidth>800</WizardDefaultWidth>
+	<WizardStyle>Modern</WizardStyle>
+	<Logo>logo.png</Logo>
+	<Watermark>watermark.png</Watermark>
+	<ControlScript>controlscript.js</ControlScript>
+	<SupportsModify>false</SupportsModify>
+	<CreateLocalRepository>false</CreateLocalRepository>
+</Installer>
