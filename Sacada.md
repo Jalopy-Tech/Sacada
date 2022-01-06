@@ -40,17 +40,17 @@ For example:
 
 ## foobar2000
 
-Sacada was designed to be used with foobar2000.
+Sacada was designed to be used with foobar2000 in Windows and  Linux.
 
-In Linux, foobar2000 must be run as a WINE application as there is currently no native version. Sacada can be installed as a native Linux application (recommended) or installed as a WINE application.
+In Linux, foobar2000 must be run as a WINE application as there is currently no native version. Sacada can be installed as a native Linux application (recommended) or installed as a WINE application (may have some graphical glitches).
 
-In foobar2000, go to the menu option **File** -> **Preferences**. On the left tree, select **Tools** -> **Run services**. On the right hand side, eneter a **Label** such as "Smart Automatic Cover Art Downloader Assistant" or "SACADA". Check the **Minimize** checkbox. For the path, enter the following:
+To set up foobar2000 to run Sacada,  open foobar2000 and go to the menu option **File** -> **Preferences**. On the left tree, select **Tools** -> **Run services**. On the right side, eneter a **label** such as "Smart Automatic Cover Art Downloader Assistant" or "SACADA". Check the **minimize** checkbox. For the **path**, enter the following depending on which OS Sacada is running in:
 
 | OS            | Path                                                         | Notes                                                        |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Windows, WINE | `"C:\Program files\Sacada\sacada\sacada.exe" -a  "%artist%" -l "%album%" -s 500 -i "$replace(%_path%,%_filename_ext%,)cover.jpg"` | The path to the Sacada installation is shown as "C:\Program files\Sacada\sacada\sacada.exe": adjust accordingly. |
 | Linux         | `cmd /c start "SACADA" /unix "/home/[name]/sacada/sacada.sh" -a "%artist%" -l "%album%" - s 500 -i "$replace(%_path%,%_filename_ext%,)cover.jpg" -w` | The path to the Sacada installation is shown as "/home/[name]/sacada/sacada.sh" where [name] is the Linux user running WINE: adjust accordingly. |
-| macOS         |                                                              |                                                              |
+| macOS         | n/a                                                          | The <a href="https://www.foobar2000.org/mac">foobar2000 for Mac</a> application doesn't have the run service function. |
 
 Change "500" to the preferred size of the image as desired.
 
