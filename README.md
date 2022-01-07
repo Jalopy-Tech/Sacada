@@ -8,6 +8,26 @@ Sacada was specifically written to work with <a href="https://www.foobar2000.org
 
 This app rrequires the <a href="https://github.com/desbma/sacad">SACAD</a> command line tool be installed. The image-crunching tools  <a href="http://optipng.sourceforge.net/">optipng</a> and  <a href="http://freshmeat.sourceforge.net/projects/jpegoptim">jpegoptim</a>  can also be optionally installed to allow SACAD to do image crunching. The "sacad" folder containing the "sacad" executable file either needs to be in the search PATH or needs to be a subolder of the Sacada installation folder. Instructions to install both Sacada and the SACAD command line tool in Linux, Windows and macOS are given below. Instructions to add the sacad folder to the search PATH is included. For more information, read the <a href="https://github.com/desbma/sacad">SACAD</a> instructions.
 
+## Screenshots
+
+### Sacada wizard
+
+<img align="center"  src="./images/Screenshot-Album-Details.png" alt="Screenshot-Album-Details"  />
+
+<img align="center"  src="./images/Screenshot-View-Search-Result.png" alt="Screenshot-View-Search-Result"  />
+
+<img align="center"  src="./images/Screenshot-Log.png" alt="Screenshot-Log"  />
+
+<img align="center"  src="./images/Screenshot-Save-Art.png" alt="Screenshot-Save-Art"  />
+
+<img align="center"  src="./images/Screenshot-Summary.png" alt="Screenshot-Summary"  />
+
+
+
+### Sacada launched from foobar2000
+
+<img align="center"  src="./images/Screenshot-Sacada-from-foobar2000.png" alt="Screenshot-Sacada-from-foobar2000"  />
+
 ## Installation
 
 ### Windows
