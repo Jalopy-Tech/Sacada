@@ -114,7 +114,7 @@ To install the <a href="https://github.com/desbma/sacad">SACAD</a> command line 
 
 2. The sacad command should be in the PATH automatically which will be something like "/home/[user]/.local/bin/sacad". If it isn't, add to the path using the .profile file.
 
-If Sacada installs correctly, it will open displaying a window, waiting for the arist and album to be entered.  If the SACAD command tool is not found, Sacada will display a message window stating so and then close.
+If Sacada installs correctly, it will open displaying a window, waiting for the artist and album to be entered.  If the SACAD command tool is not found, Sacada will display a message window stating so and then close.
 
 lf the optipng and jpegoptim crunchers are not found by SACAD when album art is found, two lines will appear in the log results:
 
