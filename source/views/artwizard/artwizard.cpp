@@ -44,6 +44,13 @@ ArtWizard::ArtWizard(QWidget *parent)
     pageIdShowSummaryWizardPage = addPage(new ShowSummaryWizardPage);
 
     recentPage = pageIdEnterDetailsWizardPage;
+
+    // Add 75 pixels to the wizard height if it is macOS. This is a fudge as macOS has
+    // a large margin at the bottom of the wizard page. Needa to be fixed properly some time.
+
+    #ifdef Q_OS_MACX
+    setGeometry(x(),y(),width(),height() + 75);
+    #endif
     originalHeight = height();
 
 
