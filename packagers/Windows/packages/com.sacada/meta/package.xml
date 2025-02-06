@@ -2,8 +2,8 @@
 <Package>
 	<DisplayName>Sacada</DisplayName>
 	<Description>SACAD Assistant</Description>
-	<Version>1.0</Version>
-	<ReleaseDate>2022-01-01</ReleaseDate>
+	<Version>1.1</Version>
+	<ReleaseDate>2025-02-06</ReleaseDate>
 	<Name>com.sacada</Name>
 	<Script>installscript.qs</Script>
 	<Licenses>

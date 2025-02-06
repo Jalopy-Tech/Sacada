@@ -96,6 +96,8 @@ void FindWizardPage::startProgress()
     // set the log to its starting values ready for a new search for art
 
     progressBar->setValue(0);
+    albumDetailsLabel->setText("");
+    artFoundPixmapLabel->setPixmap(QPixmap());
     setField("artFound", false);
 }
 

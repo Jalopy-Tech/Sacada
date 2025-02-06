@@ -49,7 +49,7 @@ public:
     View* view();
 
 private:
-    static const int DEFAULT_SIZE = 500;
+    static const int DEFAULT_SIZE = 1000;
 
     void setSacadFilePath();
     View *_view = NULL;

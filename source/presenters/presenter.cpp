@@ -348,7 +348,9 @@ void Presenter::openTempArt()
 
     // open the art in the operating systems default application
 
-    QDesktopServices::openUrl(QUrl::fromLocalFile(art.getTempPath()));
+  QDesktopServices::openUrl(QUrl::fromLocalFile(art.getTempPath()));
+
+
 }
 
 void Presenter::openFinalArt()

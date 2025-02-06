@@ -38,7 +38,7 @@
     <string>TextLabel</string>
    </property>
    <property name="alignment">
-    <set>Qt::AlignCenter</set>
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="artImageLabel">
@@ -57,7 +57,7 @@
     </sizepolicy>
    </property>
    <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
+    <enum>QFrame::Shape::StyledPanel</enum>
    </property>
    <property name="text">
     <string/>
@@ -76,13 +76,13 @@
     </rect>
    </property>
    <property name="focusPolicy">
-    <enum>Qt::StrongFocus</enum>
+    <enum>Qt::FocusPolicy::StrongFocus</enum>
    </property>
    <property name="text">
     <string/>
    </property>
    <property name="arrowType">
-    <enum>Qt::RightArrow</enum>
+    <enum>Qt::ArrowType::RightArrow</enum>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
@@ -138,7 +138,7 @@
     <rect>
      <x>100</x>
      <y>20</y>
-     <width>781</width>
+     <width>581</width>
      <height>28</height>
     </rect>
    </property>
@@ -203,7 +203,7 @@
     </rect>
    </property>
    <property name="focusPolicy">
-    <enum>Qt::NoFocus</enum>
+    <enum>Qt::FocusPolicy::NoFocus</enum>
    </property>
    <property name="text">
     <string>CheckBox</string>

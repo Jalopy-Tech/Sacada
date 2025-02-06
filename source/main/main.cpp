@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 
     QCoreApplication::setOrganizationName("Jalopy Software");
     QCoreApplication::setApplicationName("Sacada");
-    QCoreApplication::setApplicationVersion("1.0");
+    QCoreApplication::setApplicationVersion("1.1");
 
 
     Controller controller;

@@ -30,6 +30,7 @@
 
 #include <QDebug>
 #include <QPointer>
+#include <QObject>
 
 
 class Location; //Forward Declaration

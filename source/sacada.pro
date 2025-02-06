@@ -3,7 +3,7 @@ TEMPLATE = app
 
 QT       += core gui widgets
 
-QT       += core5compat
+ QT       += core5compat
 
 # Turn off console
 

@@ -37,7 +37,7 @@ function generateShortCutCmd(cmd) {
                                 Exec=\"@TargetDir@/" + prefix + "/" + cmd + "\"\n
                                 Name=Sacada\n
                                 Icon=@TargetDir@/" + prefix + "/icons/" + getBasename(cmd) + ".png\n
-                                Name[en_US]=ADB Wireless Connect");
+                                Name[en_US]=Sacada");
 
         console.log("create icons!!! on LINUX done");
     }

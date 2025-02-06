@@ -127,9 +127,8 @@ To install the <a href="https://github.com/desbma/sacad">SACAD</a> command line 
 1. Open a terminal, and enter the following commands:
 
    ```bash
-   sudo apt install python3-pip
-   pip3 install sacad
-   sudo apt-get install optipng jpegoptim
+   sudo apt install sacad
+   sudo apt install optipng jpegoptim
    ```
 
 2. The sacad command should be in the PATH automatically which will be something like "/home/[user]/.local/bin/sacad". If it isn't, add to the path using the .profile file.
@@ -153,7 +152,7 @@ To uninstall, go to the installation folder and run the executable file "SacadaM
 
 To install the <a href="https://github.com/desbma/sacad">SACAD</a> command line tool :
 
-1.  Download the WIndows self-extracting archive (sacad_win64.exe) from the  latest <a href="https://github.com/desbma/sacad/releases">SACAD release</a>.  
+1.  Download the Windows self-extracting archive (sacad_win64.exe) from the  latest <a href="https://github.com/desbma/sacad/releases">SACAD release</a>.
 
 2. Run the archive executable in WINE to extract the folder "sacad-win64" into an easily accessible location for Windows. such as "C:\\" so that the folder is "C:\\sacad-win64".
 
@@ -182,13 +181,13 @@ Main: optipng could not be found, PNG crunching will be disabled`
 
 ## Compiling Sacada from Source
 
-To compile from source, <a href="https://www.qt.io/">QT</a> Community Edition version 6.22 (or newer) needs to be installed on the relevant platform. All source code is stored in the "source" folder including the sacada.pro file which can be opened by the QT Creator app. Building in QT Creator or using qmake will create a executable file without dependencies added. It is recommended to set the build folder to "../builds" in order to build the executable in a folder expected by the packagers mentioned below.
+To compile from source, <a href="https://www.qt.io/">QT</a> Community Edition version 6.8.2 (or newer) needs to be installed on the relevant platform. All source code is stored in the "source" folder including the sacada.pro file which can be opened by the QT Creator app. Building in QT Creator or using qmake will create a executable file without dependencies added. It is recommended to set the build folder to "../builds" in order to build the executable in a folder expected by the packagers mentioned below.
 
 An installer including dependencies can be packaged using the set up files in the folder "packagers". There is a folder with a packager script for each platform. Run the relevant packager script which will be named "Sacada-[platform]-Packager.[ext]". The packager will create an installer in the same folder. This installer is a single executable file which will install the application on the target platform with all dependencies included. The packager script may need the paths adjusting if the QT utilities are not in the expected paths.
 
 ## License
 
-Copyright &copy; 2020 Robert J. Joynt.
+Copyright &copy; 2025 Robert J. Joynt.
 
 The <a href="https://github.com/Jalopy-Tech/Sacada/blob/master/LICENSE.md">Sacada license</a> uses the <a href="https://www.qt.io/">QT</a> GPLv3 <a href="https://doc.qt.io/qt-5/gpl.html">Open Source License</a>
 

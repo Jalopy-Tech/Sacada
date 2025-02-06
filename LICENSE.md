@@ -1,8 +1,8 @@
 ### SACADA LICENSE
 
-22 July 2020
+06 February 2025
 
-Copyright &copy; 2020 Robert J. Joynt.
+Copyright &copy; 2025 Robert J. Joynt.
 
 This software named <a href="https://github.com/Jalopy-Tech/Sacada/blob/master/README.md">Sacada</a> uses the <a href="https://www.qt.io/">QT</a> GPLv3 <a href="https://doc.qt.io/qt-5/gpl.html">Open Source License</a>
 

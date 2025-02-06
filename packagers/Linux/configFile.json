@@ -1,14 +1,13 @@
 {
     "name": "Sacada",
     "qifOut": "Sacada-Linux-Installer.run",
-    "bin": "../../builds/Linux/release/sacada/sacada",
+    "bin": "../../source/build/builds/Linux/release/sacada/sacada",
     "targetDir": "./sacada",
     "icon": "./icons/sacada.png",
     "qif": "template",
     "extraData": [
-            "/opt/Qt/6.2.2/gcc_64/lib/libicudata.so.56",
-            "/opt/Qt/6.2.2/gcc_64/lib/libicui18n.so.56",
-            "/opt/Qt/6.2.2/gcc_64/lib/libicuuc.so.56"
-        ]
-
+            "./libicudata.so.73",
+            "./libicui18n.so.73",
+            "./libicuuc.so.73"
+    ]
 }

@@ -3,9 +3,9 @@ echo Sacada Windows Packager
 
 echo Setting paths...
 setlocal
-SET PATH=%PATH%;C:\Qt\6.2.2\mingw_64\bin
-SET PATH=%PATH%;C:\Qt\Tools\QtInstallerFramework\4.2\bin
-SET PATH=%PATH%;C:\Qt\Tools\mingw900_64\bin
+SET PATH=%PATH%;C:\Qt\6.8.2\llvm-mingw_64\bin
+SET PATH=%PATH%;C:\Qt\Tools\QtInstallerFramework\4.8\bin
+SET PATH=%PATH%;C:\Qt\Tools\llvm-mingw1706_64\bin
 
 echo Deleting old installer...
 del Sacada-Installer.exe
@@ -16,7 +16,11 @@ rmdir /s /q "sacada"
 mkdir "sacada"
 
 echo Copying application to deployable folder... 
-copy "..\..\builds\Windows\release\sacada\Sacada.exe" "sacada"
+copy "..\..\source\build\builds\Windows\release\sacada\Sacada.exe" "sacada"
+
+echo Copying extra libraries deployable folder... 
+copy "C:\Qt\6.8.2\llvm-mingw_64\bin\libunwind.dll" "sacada"
+copy "C:\Qt\6.8.2\llvm-mingw_64\bin\libc++.dll" "sacada"
 
 echo Making application deployable using windeployqt...
 windeployqt "sacada\Sacada.exe"
